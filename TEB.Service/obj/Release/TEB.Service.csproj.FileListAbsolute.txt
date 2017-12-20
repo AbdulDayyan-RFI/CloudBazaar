@@ -1,0 +1,13 @@
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Service.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Service.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Core.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\System.Web.Mvc.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Core.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\TEB.Data.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\Dapper.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\bin\Release\System.Web.Mvc.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\obj\Release\TEB.Service.csprojResolveAssemblyReference.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\obj\Release\TEB.Service.csproj.CoreCompileInputs.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\obj\Release\TEB.Service.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Service\obj\Release\TEB.Service.pdb

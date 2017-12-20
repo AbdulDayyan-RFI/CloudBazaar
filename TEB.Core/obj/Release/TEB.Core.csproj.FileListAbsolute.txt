@@ -1,0 +1,8 @@
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\bin\Release\TEB.Core.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\bin\Release\TEB.Core.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\bin\Release\System.Web.Mvc.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\bin\Release\System.Web.Mvc.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\obj\Release\TEB.Core.csprojResolveAssemblyReference.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\obj\Release\TEB.Core.csproj.CoreCompileInputs.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\obj\Release\TEB.Core.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Core\obj\Release\TEB.Core.pdb

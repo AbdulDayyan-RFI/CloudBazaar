@@ -1,0 +1,8 @@
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Release\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Release\TEB.Data.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Release\Dapper.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Release\Dapper.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Release\TEB.Data.csprojResolveAssemblyReference.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Release\TEB.Data.csproj.CoreCompileInputs.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Release\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Release\TEB.Data.pdb

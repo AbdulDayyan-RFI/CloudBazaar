@@ -1,0 +1,106 @@
+﻿
+@model TEB.Core.ViewModel.CustomerViewModel
+@using System.Text;
+@using TEB.Core.Enumerations;
+@using TEB.Core.Helpers;
+
+<div class="panel-group">
+    <div class="panel panel-default">
+        @using (Html.BeginForm("Create", "Customer", FormMethod.Post, new { id = "edit-form" }))
+        {
+            <div class="panel-body">
+                <div class="form-group">
+                    @Html.HiddenFor(model=>model.Id)
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.Gender)
+                    </div>
+                    <div class="col-md-9">
+                        <div class="raw">
+                            <div class="col-md-1">
+                                <div class="radio">
+                                    <label>
+                                        @Html.RadioButton("Gender", "M", (Model.Gender == "M"), new { id = "Gender_Male" })
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="radio">
+                                    <label>
+                                        @Html.RadioButton("Gender", "F", (Model.Gender == "F"), new { id = "Gender_Female" })
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.FirstName)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.FirstName)
+                        @Html.ValidationMessageFor(model => model.FirstName)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.LastName)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.LastName)
+                        @Html.ValidationMessageFor(model => model.LastName)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.Email)
+                    </div>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(model => model.Email)
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.Password)
+                    </div>
+                    <div class="col-md-9">
+                        <div class="input-group">
+                            @Html.PasswordFor(model => model.Password)
+                            <div class="input-group-btn">
+                                @*@if (Model.Id > 0)
+                                    {
+                                        <button type="submit" name="changepassword" class="btn btn-info">
+                                            @T("Admin.Customers.Customers.Fields.Password.Change")
+                                        </button>
+                                    }*@
+                            </div>
+                        </div>
+                        @* @Html.ValidationMessageFor(model => model.Password)*@
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        @Html.LabelFor(model => model.ConformPassword)
+                    </div>
+                    <div class="col-md-9">
+                        <div class="input-group">
+                            @Html.PasswordFor(model => model.ConformPassword)
+                            <div class="input-group-btn">
+                                @*@if (Model.Id > 0)
+                                    {
+                                        <button type="submit" name="changepassword" class="btn btn-info">
+                                            @T("Admin.Customers.Customers.Fields.Password.Change")
+                                        </button>
+                                    }*@
+                            </div>
+                        </div>
+                        @* @Html.ValidationMessageFor(model => model.Password)*@
+                    </div>
+                </div>
+
+                <button class="btn btn-success">SAVE</button>
+            </div>
+        }
+    </div>
+</div>

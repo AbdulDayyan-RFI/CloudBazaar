@@ -1,0 +1,16 @@
+﻿
+@model TEB.Core.ViewModel.CustomerViewModel
+@{
+    ViewBag.Title = "Create";
+}
+
+
+@using (Html.BeginForm("Create", "Customer", FormMethod.Post, new { id = "customer-form" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="content-header clearfix">
+       
+    </div>
+    @Html.Partial("_CustomerInfo", Model)
+}
+

@@ -1,0 +1,28 @@
+D:\Downloads\TechBazaar\TEB.Data\bin\Debug\TEB.Data.dll
+D:\Downloads\TechBazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+D:\Downloads\TechBazaar\TEB.Data\bin\Debug\Dapper.dll
+D:\Downloads\TechBazaar\TEB.Data\bin\Debug\Dapper.xml
+D:\Downloads\TechBazaar\TEB.Data\obj\Debug\TEB.Data.csprojResolveAssemblyReference.cache
+D:\Downloads\TechBazaar\TEB.Data\obj\Debug\TEB.Data.dll
+D:\Downloads\TechBazaar\TEB.Data\obj\Debug\TEB.Data.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Data\bin\Debug\TEB.Data.dll
+D:\Project Rafeeq\TechBazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Data\bin\Debug\Dapper.dll
+D:\Project Rafeeq\TechBazaar\TEB.Data\bin\Debug\Dapper.xml
+D:\Project Rafeeq\TechBazaar\TEB.Data\obj\Debug\TEB.Data.dll
+D:\Project Rafeeq\TechBazaar\TEB.Data\obj\Debug\TEB.Data.pdb
+C:\Projects\techbazaar\TEB.Data\bin\Debug\TEB.Data.dll
+C:\Projects\techbazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+C:\Projects\techbazaar\TEB.Data\bin\Debug\Dapper.dll
+C:\Projects\techbazaar\TEB.Data\bin\Debug\Dapper.xml
+C:\Projects\techbazaar\TEB.Data\obj\Debug\TEB.Data.csprojResolveAssemblyReference.cache
+C:\Projects\techbazaar\TEB.Data\obj\Debug\TEB.Data.csproj.CoreCompileInputs.cache
+C:\Projects\techbazaar\TEB.Data\obj\Debug\TEB.Data.dll
+C:\Projects\techbazaar\TEB.Data\obj\Debug\TEB.Data.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Debug\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Debug\Dapper.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Debug\Dapper.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.csproj.CoreCompileInputs.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.pdb

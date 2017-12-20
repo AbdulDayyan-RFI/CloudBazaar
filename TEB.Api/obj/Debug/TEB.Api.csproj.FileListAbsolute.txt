@@ -1,0 +1,248 @@
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\csc.exe
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\System.Collections.Immutable.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\System.Reflection.Metadata.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\vbc.exe
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe
+D:\Downloads\TechBazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe.config
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Api.dll.config
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Api.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Api.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\Antlr3.Runtime.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Autofac.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Autofac.Integration.WebApi.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Newtonsoft.Json.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Net.Http.Formatting.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Helpers.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Http.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Http.WebHost.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Mvc.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Optimization.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Razor.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.Deployment.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.Razor.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Core.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Data.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Service.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\WebActivatorEx.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\WebGrease.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\Dapper.dll
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Core.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Data.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\TEB.Service.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\Autofac.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\Autofac.Integration.WebApi.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\Newtonsoft.Json.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Net.Http.Formatting.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Helpers.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Http.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Http.WebHost.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Mvc.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Optimization.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.Razor.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.Deployment.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\System.Web.WebPages.Razor.xml
+D:\Downloads\TechBazaar\TEB.Api\bin\Antlr3.Runtime.pdb
+D:\Downloads\TechBazaar\TEB.Api\bin\Dapper.xml
+D:\Downloads\TechBazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference.cache
+D:\Downloads\TechBazaar\TEB.Api\obj\Debug\TEB.Api.dll
+D:\Downloads\TechBazaar\TEB.Api\obj\Debug\TEB.Api.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\csc.exe
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\System.Collections.Immutable.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\vbc.exe
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe.config
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Api.dll.config
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Api.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Api.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Antlr3.Runtime.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Autofac.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Autofac.Integration.WebApi.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Newtonsoft.Json.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Net.Http.Formatting.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Helpers.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Http.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Http.WebHost.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Mvc.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Optimization.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Razor.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.Deployment.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.Razor.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Core.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Service.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\WebActivatorEx.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\WebGrease.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Data.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Dapper.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Core.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Service.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Autofac.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Autofac.Integration.WebApi.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Newtonsoft.Json.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Net.Http.Formatting.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Helpers.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Http.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Http.WebHost.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Mvc.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Optimization.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.Razor.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.Deployment.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\System.Web.WebPages.Razor.xml
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\Antlr3.Runtime.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\bin\TEB.Data.pdb
+D:\Project Rafeeq\TechBazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference.cache
+D:\Project Rafeeq\TechBazaar\TEB.Api\obj\Debug\TEB.Api.dll
+D:\Project Rafeeq\TechBazaar\TEB.Api\obj\Debug\TEB.Api.pdb
+F:\Mohtasham\My Work\techbazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference.cache
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\csc.exe
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\vbc.exe
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe
+C:\Projects\techbazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Api.dll.config
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Api.dll
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Api.pdb
+C:\Projects\techbazaar\TEB.Api\bin\Antlr3.Runtime.dll
+C:\Projects\techbazaar\TEB.Api\bin\Autofac.dll
+C:\Projects\techbazaar\TEB.Api\bin\Autofac.Integration.WebApi.dll
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\techbazaar\TEB.Api\bin\Newtonsoft.Json.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Net.Http.Formatting.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Helpers.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Http.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Http.WebHost.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Mvc.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Optimization.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Razor.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.dll
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.Razor.dll
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Core.dll
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Service.dll
+C:\Projects\techbazaar\TEB.Api\bin\WebActivatorEx.dll
+C:\Projects\techbazaar\TEB.Api\bin\WebGrease.dll
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Data.dll
+C:\Projects\techbazaar\TEB.Api\bin\Dapper.dll
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Core.pdb
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Service.pdb
+C:\Projects\techbazaar\TEB.Api\bin\Autofac.xml
+C:\Projects\techbazaar\TEB.Api\bin\Autofac.Integration.WebApi.xml
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\techbazaar\TEB.Api\bin\Newtonsoft.Json.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Net.Http.Formatting.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Helpers.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Http.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Http.WebHost.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Mvc.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Optimization.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.Razor.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\techbazaar\TEB.Api\bin\System.Web.WebPages.Razor.xml
+C:\Projects\techbazaar\TEB.Api\bin\Antlr3.Runtime.pdb
+C:\Projects\techbazaar\TEB.Api\bin\TEB.Data.pdb
+C:\Projects\techbazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference.cache
+C:\Projects\techbazaar\TEB.Api\obj\Debug\TEB.Api.csproj.CoreCompileInputs.cache
+C:\Projects\techbazaar\TEB.Api\obj\Debug\TEB.Api.dll
+C:\Projects\techbazaar\TEB.Api\obj\Debug\TEB.Api.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\csc.exe
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\vbc.exe
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Api.dll.config
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Api.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Api.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Antlr3.Runtime.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Autofac.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Autofac.Integration.WebApi.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Newtonsoft.Json.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Helpers.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Http.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Mvc.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Optimization.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Razor.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Core.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Service.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\WebActivatorEx.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\WebGrease.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Data.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Dapper.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Core.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Service.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Autofac.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Autofac.Integration.WebApi.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Newtonsoft.Json.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Helpers.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Http.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Mvc.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Optimization.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.Razor.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\System.Web.WebPages.Razor.xml
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\Antlr3.Runtime.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\bin\TEB.Data.pdb
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\obj\Debug\TEB.Api.csproj.CoreCompileInputs.cache
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\obj\Debug\TEB.Api.dll
+C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Api\obj\Debug\TEB.Api.pdb

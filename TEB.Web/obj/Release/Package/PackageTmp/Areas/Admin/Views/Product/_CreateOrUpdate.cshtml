@@ -1,0 +1,55 @@
+﻿@model TEB.Core.ViewModel.ProductViewModel
+
+@Html.ValidationSummary(false)
+@Html.HiddenFor(model => model.Id)
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="row">
+            <div class="col-md-12 clearfix">
+            </div>
+        </div>
+        <div id="product-edit" class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-tab-name="tab-info" data-toggle="tab" href="#tab-info">Product info</a></li>
+                <li class="advanced-setting"><a data-tab-name="tab-seo" data-toggle="tab" href="#tab-seo">SEO</a></li>
+                <li class=""><a data-tab-name="tab-pictures" data-toggle="tab" href="#tab-pictures">Pictures</a></li>
+                <li class=""><a data-tab-name="tab-product-attributes" data-toggle="tab" href="#tab-product-attributes">Product attributes</a></li>
+                <li class=""><a class="specAttr" data-tab-name="tab-specification-attributes" data-toggle="tab" href="#tab-specification-attributes">Specification attributes</a></li>
+                @if (Model.Id > 0)
+                {
+                    <li class=""><a data-tab-name="tab-purchased-with-orders" data-toggle="tab" href="#tab-purchased-with-orders">Purchased orders</a></li>
+                    <li class=""><a data-tab-name="tab-stock-quantity-history" data-toggle="tab" href="#tab-stock-quantity-history">Stock Quantity History</a></li>
+                }
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab-info">
+                    @Html.Partial("_ProductInfo", Model)
+                </div>
+                <div class="tab-pane" id="tab-seo">
+                    @*@Html.Partial("_CreateOrUpdate.SEO", Model)*@
+                </div>
+                <div class="tab-pane" id="tab-pictures">
+                    @*@Html.Partial("_CreateOrUpdate.Pictures", Model)*@
+                </div>
+                <div class="tab-pane" id="tab-product-attributes">
+                    @*@Html.Partial("_CreateOrUpdate.ProductAttributes", Model)*@
+                </div>
+                <div class="tab-pane" id="tab-specification-attributes">
+                    @Html.Partial("_SpecificationAttribute", Model)
+                </div>
+                @if (Model.Id > 0)
+                {
+                    <div class="tab-pane" id="tab-purchased-with-orders">
+                        @*@Html.Partial("_CreateOrUpdate.PurchasedWithOrders", Model)*@
+                    </div>
+                    <div class="tab-pane" id="tab-stock-quantity-history">
+                        @*@Html.Partial("_CreateOrUpdate._StockQuantityHistory", Model)*@
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

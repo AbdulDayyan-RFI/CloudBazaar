@@ -1,0 +1,137 @@
+﻿
+@{
+    ViewBag.Title = "Category";
+}
+
+<section class="content-header">
+    <h1>
+        Category
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li class="active">Category</li>
+    </ol>
+    <div class="pull-right">
+        <a href="@Url.Action("Create")" class="btn bg-blue">
+            <i class="fa fa-plus-square"></i>
+            Add new
+        </a>
+        <button type="submit" name="download-catalog-pdf" class="btn bg-purple">
+            <i class="fa fa-file-pdf-o"></i>
+            Download catalog as PDF
+        </button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">
+                <i class="fa fa-download"></i>
+                Export
+            </button>
+            <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">&nbsp;</span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li>
+                    <button type="submit" name="exportxml-all">
+                        <i class="fa fa-file-code-o"></i>
+                        Export to XML (all found)
+                    </button>
+                </li>
+                <li>
+                    <button type="button" id="exportxml-selected">
+                        <i class="fa fa-file-code-o"></i>
+                        Export to XML (selected)
+                    </button>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <button type="submit" name="exportexcel-all">
+                        <i class="fa fa-file-excel-o"></i>
+                        Export to Excel (all found)
+                    </button>
+                </li>
+                <li>
+                    <button type="button" id="exportexcel-selected">
+                        <i class="fa fa-file-excel-o"></i>
+                        Export to Excel (selected)
+                    </button>
+                </li>
+            </ul>
+       
+        
+    </div>
+
+</section>
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Manage Categories</h3>
+                </div>
+                <div class="box-body">
+                    <div id="categories-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://kendo.cdn.telerik.com/2017.3.913/js/kendo.all.min.js"></script>
+
+<script>
+    $(function () {
+        $("#categories-grid").kendoGrid({
+            dataSource: {
+                type: "json",
+                transport: {
+                    read: {
+                        url: "@Html.Raw(Url.Action("CategoryList", "Category"))",
+                        type: "POST",
+                        dataType: "json",
+                        //data: additionalData
+                    }
+                },
+                schema: {
+                    data: "Data",
+                    total: "Total",
+                    errors: "Errors"
+                },
+                error: function (e) {
+                    display_kendoui_grid_error(e);
+                    // Cancel the changes
+                    this.cancelChanges();
+                },
+                pageSize: 10,
+                serverPaging: true,
+                serverFiltering: true,
+                serverSorting: true
+            },
+            scrollable: false,
+            columns: [
+                                    {
+                                        field: "Name",
+                                        title: "Name"
+                                    }, {
+                                        field: "Published",
+                                        title: "Published",
+                                        width: 100,
+                                        headerAttributes: { style: "text-align:center" },
+                                        attributes: { style: "text-align:center" },
+                                        template: '# if(Published) {# <i class="fa fa-check true-icon"></i> #} else {# <i class="fa fa-close false-icon"></i> #} #'
+                                    }, {
+                                        field: "DisplayOrder",
+                                        title: "DisplayOrder",
+                                        width: 150
+                                    }, {
+                                        field: "Id",
+                                        title: "Edit",
+                                        width: 100,
+                                        headerAttributes: { style: "text-align:center" },
+                                        attributes: { style: "text-align:center" },
+                                        template: '<a class="btn btn-default" href="Edit/#=Id#"><i class="fa fa-pencil"></i>Edit</a>'
+                                    }
+                                ]
+        });
+    })
+</script>
+
