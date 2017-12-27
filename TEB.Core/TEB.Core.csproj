@@ -33,6 +33,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
@@ -63,6 +64,7 @@
     <Compile Include="Domain\Order.cs" />
     <Compile Include="Domain\OrderItem.cs" />
     <Compile Include="Domain\OrderNote.cs" />
+    <Compile Include="Domain\Picture.cs" />
     <Compile Include="Domain\Product.cs" />
     <Compile Include="Domain\ProductWarehouseInventory.cs" />
     <Compile Include="Domain\Product_Category_Mapping.cs" />
@@ -83,14 +85,17 @@
     <Compile Include="Enumerations\OrderStatusEnum.cs" />
     <Compile Include="Enumerations\PasswordFormat.cs" />
     <Compile Include="Enumerations\PaymentStatusEnum.cs" />
+    <Compile Include="Enumerations\PictureType.cs" />
     <Compile Include="Enumerations\ProductSortingEnum.cs" />
     <Compile Include="Enumerations\ProductType.cs" />
+    <Compile Include="Enumerations\ResizeType.cs" />
     <Compile Include="Enumerations\ShipmentStatusEnum.cs" />
     <Compile Include="Enumerations\SpecificationAttributeType.cs" />
     <Compile Include="Enumerations\ShoppingCartTypeEnum.cs" />
     <Compile Include="Enumerations\TaxDisplayType.cs" />
     <Compile Include="Enumerations\VatNumberStatus.cs" />
     <Compile Include="Helpers\HtmlExtensions.cs" />
+    <Compile Include="Helpers\MediaSettings.cs" />
     <Compile Include="Mapping\AddressMapping.cs" />
     <Compile Include="Mapping\CategoryMapping.cs" />
     <Compile Include="Mapping\CustomerMapping.cs" />
@@ -112,6 +117,7 @@
     <Compile Include="ViewModel\OrderViewModel.cs" />
     <Compile Include="ViewModel\OrderItemViewModel.cs" />
     <Compile Include="ViewModel\OrderNoteViewModel.cs" />
+    <Compile Include="ViewModel\ProductDetailsModel.cs" />
     <Compile Include="ViewModel\ProductEditorSettingsModel.cs" />
     <Compile Include="ViewModel\ProductSearchViewModel.cs" />
     <Compile Include="ViewModel\ProductsViewModel.cs" />

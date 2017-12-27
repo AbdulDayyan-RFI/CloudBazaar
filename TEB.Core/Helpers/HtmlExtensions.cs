@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
+using System.Web.Hosting;
 using System.Web.Mvc;
+
+
 
 namespace TEB.Core.Helpers
 {
@@ -57,6 +61,45 @@ namespace TEB.Core.Helpers
             //ensure no spaces (e.g. when the first letter is upper case)
             result = result.TrimStart();
             return result;
+        }
+
+        public static string MapPath(string path)
+        {
+            if (HostingEnvironment.IsHosted)
+            {
+                //hosted
+                return HostingEnvironment.MapPath(path);
+            }
+
+            //not hosted. For example, run in unit tests
+            string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            path = path.Replace("~/", "").TrimStart('/').Replace('/', '\\');
+            return Path.Combine(baseDirectory, path);
+        }
+
+        public static string EnsureNotNull(string str)
+        {
+            return str ?? string.Empty;
+        }
+
+        public static string EnsureMaximumLength(string str, int maxLength, string postfix = null)
+        {
+            if (String.IsNullOrEmpty(str))
+                return str;
+
+            if (str.Length > maxLength)
+            {
+                var pLen = postfix == null ? 0 : postfix.Length;
+
+                var result = str.Substring(0, maxLength - pLen);
+                if (!String.IsNullOrEmpty(postfix))
+                {
+                    result += postfix;
+                }
+                return result;
+            }
+
+            return str;
         }
     }
 }
