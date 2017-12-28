@@ -223,10 +223,10 @@ namespace TEB.Service
                     item.ProductList = products;
                 }
             }
-                return model;
+            return model;
         }
 
-        public IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageID)
+        public IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageID, string Productsname = "")
         {
             List<ProductsViewModel> ProductList = new List<ProductsViewModel>();
 
@@ -236,12 +236,24 @@ namespace TEB.Service
             {
                 skip = take * (PageID - 1);
             }
-            string query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
+            string query = @"";
+            if (Productsname == "")
+            {
+                query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
                             left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and pc.CategoryId = @categoryid 
                             order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
-            var param = new
+
+            }
+            else
             {
+                query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
+                            left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and p.Name like '%@name%'
+                            order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
+            }
+            var param = new
+            {                
                 categoryid = CategoryID,
+                name = Productsname,
                 skip = skip,
                 take = take
             };

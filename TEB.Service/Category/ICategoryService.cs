@@ -18,7 +18,7 @@ namespace TEB.Service
         int UpdateCategory(Category model);
         int DeleteCategory(int Id);
         IEnumerable<CategoryandProductViewmodel> GetAllCategoryAndProducts();
-        IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageId);
+        IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageId,string Productsname = "");
         ProductsViewModel GetProductDetails(int ID);
     }
 }

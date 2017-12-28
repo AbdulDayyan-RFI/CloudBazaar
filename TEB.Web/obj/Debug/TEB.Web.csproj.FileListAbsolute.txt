@@ -245,3 +245,6 @@ C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Web\obj\Debug\TEB.Web.
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Web\obj\Debug\TEB.Web.csproj.CoreCompileInputs.cache
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Web\obj\Debug\TEB.Web.dll
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Web\obj\Debug\TEB.Web.pdb
+F:\Mohtasham\My Work\CloudBazaar\TEB.Web\obj\Debug\TEB.Web.csprojResolveAssemblyReference.cache
+F:\Mohtasham\My Work\CloudBazaar\TEB.Web\obj\Debug\TEB.Web.dll
+F:\Mohtasham\My Work\CloudBazaar\TEB.Web\obj\Debug\TEB.Web.pdb

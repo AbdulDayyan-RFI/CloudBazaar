@@ -26,3 +26,10 @@ C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\bin\Debug\Dapper.
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.csproj.CoreCompileInputs.cache
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.dll
 C:\Users\doodac03\Documents\new techbazaar\techbazaar\TEB.Data\obj\Debug\TEB.Data.pdb
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\bin\Debug\TEB.Data.dll
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\bin\Debug\Dapper.dll
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\bin\Debug\Dapper.xml
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.csprojResolveAssemblyReference.cache
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.dll
+F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.pdb
