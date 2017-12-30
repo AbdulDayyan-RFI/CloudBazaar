@@ -226,7 +226,7 @@ namespace TEB.Service
             return model;
         }
 
-        public IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageID, string Productsname = "")
+        public IEnumerable<ProductsViewModel> GetProductByCategoryID(int CategoryID, int PageID, string Productsname = "", string SortbyText = "")
         {
             List<ProductsViewModel> ProductList = new List<ProductsViewModel>();
 
@@ -250,8 +250,32 @@ namespace TEB.Service
                             left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and p.Name like '%@name%'
                             order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
             }
+            if (SortbyText != "")
+            {
+                switch (SortbyText)
+                {
+                    case "A to Z":
+                        query = query.Replace("order by p.Id desc", "order by p.Name");
+                        break;
+
+                    case "Z to A":
+                        query = query.Replace("order by p.Id desc", "order by p.Name desc");
+                        break;
+
+                    case "Low to High":
+                        query = query.Replace("order by p.Id desc", "order by p.Price");
+                        break;
+
+                    case "High to Low":
+                        query = query.Replace("order by p.Id desc", "order by p.Price desc");
+                        break;
+
+                    default:
+                        break;
+                }
+            }
             var param = new
-            {                
+            {
                 categoryid = CategoryID,
                 name = Productsname,
                 skip = skip,

@@ -92,11 +92,11 @@ namespace TEB.Api.Controllers
         }
 
         [HttpGet]
-        public IHttpActionResult GetProductByCategoryID(int CategoryID,int Pageid,string Productsname="")
+        public IHttpActionResult GetProductByCategoryID(int CategoryID,int Pageid,string Productsname="", string SortbyText = "")
         {
             return RunInSafe(() =>
             {
-                var data = _categoryService.GetProductByCategoryID(CategoryID,Pageid, Productsname);
+                var data = _categoryService.GetProductByCategoryID(CategoryID,Pageid, Productsname, SortbyText);
                 tebResponse.Data = data;
                 tebResponse.IsSuccess = true;
                 return Ok(tebResponse);
