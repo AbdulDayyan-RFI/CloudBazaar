@@ -17,5 +17,7 @@ namespace TEB.Service
         int DeleteProduct(int Id);
         Task<IEnumerable<Product>> SearchProducts(SearchProductModel model);
         ProductsViewModel GetProductByName(string ProductName);
+        ProductDetailsModel PrepareProductDetailsModel(Product product,
+            ShoppingCartItem updatecartitem = null, bool isAssociatedProduct = false);
     }
 }

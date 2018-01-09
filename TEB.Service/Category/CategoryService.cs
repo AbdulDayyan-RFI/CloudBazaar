@@ -17,8 +17,11 @@ namespace TEB.Service
 
         private readonly IGenericRepository<Category> _categoryRepository;
         private readonly IGenericRepository<Product> _productRepository;
-        public CategoryService(IGenericRepository<Category> categoryRepository, IGenericRepository<Product> productRepository)
+        public readonly IProductService _productService;
+
+        public CategoryService(IProductService productService, IGenericRepository<Category> categoryRepository, IGenericRepository<Product> productRepository)
         {
+            _productService = productService;
             _categoryRepository = categoryRepository;
             _productRepository = productRepository;
         }
@@ -282,6 +285,13 @@ namespace TEB.Service
                 take = take
             };
             var products = _productRepository.Get<ProductsViewModel>(query, param).ToList();
+            products.ForEach(x => {
+            Product product = new Product();
+                product.Id = x.ProductId;
+                product.Name = x.ProductName;
+                x.PictureModel = _productService.PrepareProductDetailsModel(product);
+
+            });
             return products;
         }
 

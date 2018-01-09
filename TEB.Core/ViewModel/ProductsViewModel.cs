@@ -16,5 +16,6 @@ namespace TEB.Core.ViewModel
         public string ShortDescription { get; set; }
         public List<byte[]> Pictures { get; set; }
         public List<ProductsViewModel> RelateProducts { get; set; }
+        public ProductDetailsModel PictureModel { get; set; }
     }
 }
