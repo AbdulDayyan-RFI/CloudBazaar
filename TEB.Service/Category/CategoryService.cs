@@ -250,8 +250,8 @@ namespace TEB.Service
             else
             {
                 query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
-                            left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and p.Name like '%@name%'
-                            order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
+                            left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and 
+                            p.Name like '%" + Productsname + "%' order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
             }
             if (SortbyText != "")
             {
@@ -285,8 +285,9 @@ namespace TEB.Service
                 take = take
             };
             var products = _productRepository.Get<ProductsViewModel>(query, param).ToList();
-            products.ForEach(x => {
-            Product product = new Product();
+            products.ForEach(x =>
+            {
+                Product product = new Product();
                 product.Id = x.ProductId;
                 product.Name = x.ProductName;
                 x.PictureModel = _productService.PrepareProductDetailsModel(product);
