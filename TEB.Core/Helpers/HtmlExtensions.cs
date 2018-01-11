@@ -65,6 +65,12 @@ namespace TEB.Core.Helpers
 
         public static string MapPath(string path)
         {
+            //temporary fix by faraaz for images in api
+            string hostpath = HostingEnvironment.ApplicationPhysicalPath;
+            hostpath = hostpath.Replace("testapi", "solvemax.in");
+            path = path.Replace("~/", "").TrimStart('/').Replace('/', '\\');
+            return Path.Combine(hostpath, path);
+
             if (HostingEnvironment.IsHosted)
             {
                 //hosted
