@@ -359,6 +359,11 @@ namespace TEB.Service
                             left outer join Picture as pic on ppm.PictureId = pic.Id  where p.Name = @name and p.Published = 1 and p.Deleted = 0";
             var param = new { name = ProductName };
             var product = _productRepository.Get<ProductsViewModel>(query, param).FirstOrDefault();
+
+            Product prodct = new Product();
+            prodct.Id = product.ProductId;
+            prodct.Name = product.ProductName;
+            product.PictureModel = PrepareProductDetailsModel(prodct);
             return product;
         }
 
