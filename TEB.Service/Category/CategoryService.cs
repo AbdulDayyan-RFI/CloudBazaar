@@ -219,11 +219,22 @@ namespace TEB.Service
                     ProductId = x.FirstOrDefault().ProductId,
                     ProductName = x.FirstOrDefault().ProductName,
                     PicBinary = x.FirstOrDefault().PicBinary,
-                    Price = x.FirstOrDefault().Price
+                    Price = x.FirstOrDefault().Price,
                 }).ToList();
+
                 if (products.Count > 0)
                 {
                     item.ProductList = products;
+                }
+            }
+            foreach (var items in model)
+            {
+                foreach (var subitems in items.ProductList)
+                {
+                    Product product = new Product();
+                    product.Id = subitems.ProductId;
+                    product.Name = subitems.ProductName;
+                    subitems.PictureModel = _productService.PrepareProductDetailsModel(product);
                 }
             }
             return model;
@@ -321,6 +332,12 @@ namespace TEB.Service
                                             join Picture on Picture.Id = PictureId";
             var Parameters = new { productid1 = ID };
             Model.RelateProducts = _productRepository.Get<ProductsViewModel>(RelatedProductsQuery, Parameters).ToList();
+
+            Product product = new Product();
+            product.Id = Model.ProductId;
+            product.Name = Model.ProductName;
+            Model.PictureModel = _productService.PrepareProductDetailsModel(product);
+
             return Model;
         }
 

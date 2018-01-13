@@ -30,6 +30,7 @@ namespace TEB.Core.ViewModel
         public byte[] PicBinary { get; set; }
         public string ImageURL { get; set; }
         public double Price { get; set; }
+        public ProductDetailsModel PictureModel { get; set; }
     }
 
     public class ChildCategory
