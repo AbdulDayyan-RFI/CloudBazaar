@@ -17,12 +17,15 @@ namespace TEB.Service
         private readonly IGenericRepository<Address> _BillingAddressRepository;
         private readonly IGenericRepository<ShoppingCartItem> _ShoppingCartItemRepository;
         private readonly IGenericRepository<Product> _productRepository;
+        private readonly IProductService _productService;
 
-        public ShoppingCartService(IGenericRepository<Address> BillingAddressRepository, IGenericRepository<ShoppingCartItem> ShoppingCartItemRepository, IGenericRepository<Product> productRepository)
+        public ShoppingCartService(IGenericRepository<Address> BillingAddressRepository, IGenericRepository<ShoppingCartItem> ShoppingCartItemRepository,
+            IGenericRepository<Product> productRepository, IProductService productService)
         {
             _BillingAddressRepository = BillingAddressRepository;
             _ShoppingCartItemRepository = ShoppingCartItemRepository;
             _productRepository = productRepository;
+            _productService = productService;
         }
 
         public int InsertBillingAddress(Address model)
@@ -76,6 +79,13 @@ namespace TEB.Service
                             where ShoppingCartItem.CustomerId=@customerid and ShoppingCartItem.ShoppingCartTypeId=@shoppingcarttypeid";
             var param = new { customerid = CustomerID, shoppingcarttypeid = ShoppingcarttypeID };
             var result = _ShoppingCartItemRepository.Get<CustomerShoppingCartViewModel>(Query, param).ToList();
+            result.ForEach(x =>
+            {
+                Product product = new Product();
+                product.Id = x.ProductId;
+                product.Name = x.ProductName;
+                x.PictureModel = _productService.PrepareProductDetailsModel(product);
+            });
             return result;
         }
 

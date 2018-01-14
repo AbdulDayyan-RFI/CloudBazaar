@@ -505,11 +505,8 @@ namespace TEB.Service
             return model;
         }
 
-        public virtual string GetPictureUrl(Picture picture,
-            int targetSize = 0,
-            bool showDefaultPicture = true,
-            string storeLocation = null,
-            PictureType defaultPictureType = PictureType.Entity)
+        public virtual string GetPictureUrl(Picture picture,int targetSize = 0,bool showDefaultPicture = true,
+            string storeLocation = null,PictureType defaultPictureType = PictureType.Entity)
         {
             string url = string.Empty;
             byte[] pictureBinary = null;
@@ -674,8 +671,7 @@ namespace TEB.Service
             return Path.Combine(HtmlExtensions.MapPath("~/content/images/"), fileName);
         }
 
-        public virtual string GetDefaultPictureUrl(int targetSize = 0,
-             PictureType defaultPictureType = PictureType.Entity,
+        public virtual string GetDefaultPictureUrl(int targetSize = 0,PictureType defaultPictureType = PictureType.Entity,
              string storeLocation = null)
         {
             string defaultImageFileName;
@@ -736,6 +732,7 @@ namespace TEB.Service
                 return url;
             }
         }
+
         protected virtual void DeletePictureThumbs(Picture picture)
         {
             string filter = string.Format("{0}*.*", picture.Id.ToString("0000000"));
@@ -748,9 +745,8 @@ namespace TEB.Service
             }
         }
 
-        public virtual Picture UpdatePicture(int pictureId, byte[] pictureBinary, string mimeType,
-    string seoFilename, string altAttribute = null, string titleAttribute = null,
-    bool isNew = true, bool validateBinary = true)
+        public virtual Picture UpdatePicture(int pictureId, byte[] pictureBinary, string mimeType,string seoFilename, 
+            string altAttribute = null, string titleAttribute = null,bool isNew = true, bool validateBinary = true)
         {
             mimeType = HtmlExtensions.EnsureNotNull(mimeType);
             mimeType = HtmlExtensions.EnsureMaximumLength(mimeType, 20);
@@ -785,6 +781,7 @@ namespace TEB.Service
 
             return picture;
         }
+
         protected virtual string GetThumbLocalPath(string thumbFileName)
         {
             var thumbsDirectoryPath = HtmlExtensions.MapPath("~/content/images/thumbs");
@@ -805,6 +802,7 @@ namespace TEB.Service
             var thumbFilePath = Path.Combine(thumbsDirectoryPath, thumbFileName);
             return thumbFilePath;
         }
+
         protected virtual bool GeneratedThumbExists(string thumbFilePath, string thumbFileName)
         {
             return File.Exists(thumbFilePath);

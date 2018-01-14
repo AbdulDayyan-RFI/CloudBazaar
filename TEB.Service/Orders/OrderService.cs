@@ -81,6 +81,13 @@ namespace TEB.Service.Orders
                            OrderItem as oi on o.Id = oi.OrderId join Product as p on oi.ProductId = p.Id join Product_Picture_Mapping as pm on p.Id = pm.ProductId
                            join Picture as pic on pic.Id = pm.PictureId where o.Id = @orderid";
             Model.ProductsList = _Order.Get<CustomerShoppingCartViewModel>(Query1, param).ToList();
+            Model.ProductsList.ForEach(x =>
+            {
+                Product product = new Product();
+                product.Id = x.ProductId;
+                product.Name = x.ProductName;
+                x.PictureModel = _productService.PrepareProductDetailsModel(product);
+            });
             return Model;
         }
 

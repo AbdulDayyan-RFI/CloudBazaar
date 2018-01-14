@@ -319,7 +319,10 @@ namespace TEB.Service
                                 where Product_Picture_Mapping.ProductId = @id";
             var Params = new { id = ID };
             Model.Pictures = _productRepository.Get<byte[]>(ImageQuery, Params).ToList();
-
+            Product product = new Product();
+            product.Id = Model.ProductId;
+            product.Name = Model.ProductName;
+            Model.PictureModel = _productService.PrepareProductDetailsModel(product);
             string RelatedProductsQuery = @"select ProductId,ProductName,Price,Picture.PictureBinary as PicBinary from (
                                             select Product.id as ProductId,Product.Name as ProductName,Product.Price,max(Picture.Id) as PictureId
                                             from RelatedProduct
@@ -331,13 +334,14 @@ namespace TEB.Service
                                             )a
                                             join Picture on Picture.Id = PictureId";
             var Parameters = new { productid1 = ID };
-            Model.RelateProducts = _productRepository.Get<ProductsViewModel>(RelatedProductsQuery, Parameters).ToList();
-
-            Product product = new Product();
-            product.Id = Model.ProductId;
-            product.Name = Model.ProductName;
-            Model.PictureModel = _productService.PrepareProductDetailsModel(product);
-
+            Model.RelateProducts = _productRepository.Get<ProductsViewModel>(RelatedProductsQuery, Parameters).ToList();            
+            Model.RelateProducts.ForEach(x => 
+            {
+                Product RelateProducts = new Product();
+                RelateProducts.Id = x.ProductId;
+                RelateProducts.Name = x.ProductName;
+                x.PictureModel = _productService.PrepareProductDetailsModel(RelateProducts);
+            });
             return Model;
         }
 
