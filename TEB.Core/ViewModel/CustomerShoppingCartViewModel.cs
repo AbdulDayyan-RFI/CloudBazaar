@@ -14,5 +14,6 @@ namespace TEB.Core.ViewModel
         public string Description { get; set; }
         public int Quantity { get; set; }
         public byte[] PictureBinary { get; set; }
+        public ProductDetailsModel PictureModel { get; set; }
     }
 }

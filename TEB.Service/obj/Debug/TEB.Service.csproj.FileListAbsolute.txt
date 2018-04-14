@@ -60,3 +60,19 @@ F:\Mohtasham\My Work\CloudBazaar\TEB.Service\bin\Debug\System.Web.Mvc.xml
 F:\Mohtasham\My Work\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.csprojResolveAssemblyReference.cache
 F:\Mohtasham\My Work\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.dll
 F:\Mohtasham\My Work\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.pdb
+C:\Projects\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.csprojResolveAssemblyReference.cache
+C:\Projects\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.csproj.CoreCompileInputs.cache
+C:\Projects\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.dll
+C:\Projects\CloudBazaar\TEB.Service\obj\Debug\TEB.Service.pdb
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Service.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Service.pdb
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.Plugins.PrettyGifs.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Core.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Data.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\System.Web.Mvc.dll
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Core.pdb
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Data.pdb
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.xml
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.Plugins.PrettyGifs.xml
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\System.Web.Mvc.xml

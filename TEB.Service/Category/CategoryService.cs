@@ -253,16 +253,29 @@ namespace TEB.Service
             string query = @"";
             if (Productsname == "")
             {
-                query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
-                            left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and pc.CategoryId = @categoryid 
-                            order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
+                query = @"select distinct p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary
+                        from Product as p 
+                        left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
+                        left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId 
+                        left outer join Picture as pic on pic.Id = ppm.PictureId  
+                        left outer join Product_Category_Mapping as pcm on p.Id = pcm.ProductId
+                        left outer join Category as c on pcm.CategoryId = c.Id 
+                        left outer join Category as pcc on c.ParentCategoryId = pcc.Id where p.Published = 1 and p.Deleted = 0 and pc.CategoryId = @categoryid 
+                        order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
 
             }
             else
             {
-                query = @"select p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary from Product as p left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
-                            left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId left outer join Picture as pic on pic.Id = ppm.PictureId  where p.Published = 1 and p.Deleted = 0 and 
-                            p.Name like '%" + Productsname + "%' order by p.Id desc OFFSET (@skip) ROWS FETCH NEXT (@take) ROWS ONLY";
+                query = @"select distinct p.Id as ProductId,p.Name as ProductName,p.Price,pic.PictureBinary as PicBinary
+                        from Product as p 
+                        left outer join Product_Category_Mapping  as pc on p.Id = pc.ProductId 
+                        left outer join Product_Picture_Mapping as ppm on p.id = ppm.ProductId 
+                        left outer join Picture as pic on pic.Id = ppm.PictureId  
+                        left outer join Product_Category_Mapping as pcm on p.Id = pcm.ProductId
+                        left outer join Category as c on pcm.CategoryId = c.Id 
+                        left outer join Category as pcc on c.ParentCategoryId = pcc.Id
+                        where p.Published = 1 and p.Deleted = 0 and 
+                        (p.Name like '%" + Productsname + "%' or c.Name like '%" + Productsname + "%'or pcc.Name like '%" + Productsname + "%') order by p.Id OFFSET (0) ROWS FETCH NEXT (100) ROWS ONLY";
             }
             if (SortbyText != "")
             {

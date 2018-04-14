@@ -37,3 +37,10 @@ F:\Mohtasham\My Work\CloudBazaar\TEB.Core\bin\Debug\System.Web.Mvc.xml
 F:\Mohtasham\My Work\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.csprojResolveAssemblyReference.cache
 F:\Mohtasham\My Work\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.dll
 F:\Mohtasham\My Work\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.pdb
+C:\Projects\CloudBazaar\TEB.Core\bin\Debug\TEB.Core.dll
+C:\Projects\CloudBazaar\TEB.Core\bin\Debug\TEB.Core.pdb
+C:\Projects\CloudBazaar\TEB.Core\bin\Debug\System.Web.Mvc.dll
+C:\Projects\CloudBazaar\TEB.Core\bin\Debug\System.Web.Mvc.xml
+C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.csproj.CoreCompileInputs.cache
+C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.dll
+C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.pdb

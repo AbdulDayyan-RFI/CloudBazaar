@@ -33,3 +33,11 @@ F:\Mohtasham\My Work\CloudBazaar\TEB.Data\bin\Debug\Dapper.xml
 F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.csprojResolveAssemblyReference.cache
 F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.dll
 F:\Mohtasham\My Work\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.pdb
+C:\Projects\CloudBazaar\TEB.Data\bin\Debug\TEB.Data.dll
+C:\Projects\CloudBazaar\TEB.Data\bin\Debug\TEB.Data.pdb
+C:\Projects\CloudBazaar\TEB.Data\bin\Debug\Dapper.dll
+C:\Projects\CloudBazaar\TEB.Data\bin\Debug\Dapper.xml
+C:\Projects\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.csprojResolveAssemblyReference.cache
+C:\Projects\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.csproj.CoreCompileInputs.cache
+C:\Projects\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.dll
+C:\Projects\CloudBazaar\TEB.Data\obj\Debug\TEB.Data.pdb
