@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TEB.Core.Domain;
+using TEB.Core.ViewModel;
 
 namespace TEB.Service
 {
@@ -11,5 +12,6 @@ namespace TEB.Service
     {
         Task<IEnumerable<Address>> GetAllAddressByCustomerId(int id);
         Task<Address> GetAddressById(int id);
+        object AddCustomerAddress(AddressViewModel address);
     }
 }

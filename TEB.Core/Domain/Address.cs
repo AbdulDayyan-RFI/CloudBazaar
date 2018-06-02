@@ -14,7 +14,7 @@ namespace TEB.Core.Domain
         public string Email { get; set; }
         public string Company { get; set; }
         public int? CountryId { get; set; }
-        public int? StateprovinceId { get; set; }
+        public int? StateProvinceId { get; set; }
         public string City { get; set; }
         public string Address1 { get; set; }
         public string Address2 { get; set; }

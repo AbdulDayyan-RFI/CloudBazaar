@@ -49,7 +49,7 @@ namespace TEB.Service
                     Email = model.Email,
                     Company = model.Company,
                     CountryId = model.CountryId,
-                    StateprovinceId = model.StateprovinceId,
+                    StateProvinceId = model.StateProvinceId,
                     City = model.City,
                     Address1 = model.Address1,
                     Address2 = model.Address2,
