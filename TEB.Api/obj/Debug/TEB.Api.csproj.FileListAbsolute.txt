@@ -373,3 +373,4 @@ C:\Projects\CloudBazaar\TEB.Api\obj\Debug\TEB.Api.csprojResolveAssemblyReference
 C:\Projects\CloudBazaar\TEB.Api\obj\Debug\TEB.Api.csproj.CoreCompileInputs.cache
 C:\Projects\CloudBazaar\TEB.Api\obj\Debug\TEB.Api.dll
 C:\Projects\CloudBazaar\TEB.Api\obj\Debug\TEB.Api.pdb
+C:\Projects\CloudBazaar\TEB.Api\bin\Braintree.dll

@@ -44,3 +44,4 @@ C:\Projects\CloudBazaar\TEB.Core\bin\Debug\System.Web.Mvc.xml
 C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.csproj.CoreCompileInputs.cache
 C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.dll
 C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.pdb
+C:\Projects\CloudBazaar\TEB.Core\obj\Debug\TEB.Core.csprojResolveAssemblyReference.cache

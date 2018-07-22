@@ -76,3 +76,4 @@ C:\Projects\CloudBazaar\TEB.Service\bin\Debug\TEB.Data.pdb
 C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.xml
 C:\Projects\CloudBazaar\TEB.Service\bin\Debug\ImageResizer.Plugins.PrettyGifs.xml
 C:\Projects\CloudBazaar\TEB.Service\bin\Debug\System.Web.Mvc.xml
+C:\Projects\CloudBazaar\TEB.Service\bin\Debug\Braintree.dll

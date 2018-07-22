@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Braintree, Version=4.4.0.0, Culture=neutral, PublicKeyToken=31b586f34d3e96c7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Braintree.4.4.0\lib\net452\Braintree.dll</HintPath>
+    </Reference>
     <Reference Include="Dapper, Version=1.50.2.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="ImageResizer, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ImageResizer.4.2.0\lib\net45\ImageResizer.dll</HintPath>
@@ -41,6 +44,7 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -59,6 +63,8 @@
     <Compile Include="Customer\ICustomerService.cs" />
     <Compile Include="Orders\IOrderService.cs" />
     <Compile Include="Orders\OrderService.cs" />
+    <Compile Include="Payment\IPaymentService.cs" />
+    <Compile Include="Payment\PaymentService.cs" />
     <Compile Include="Product\IProductService.cs" />
     <Compile Include="Product\ProductService.cs" />
     <Compile Include="Product_SpecificationAttribute_Mapping\IProduct_SpecificationAttribute_MappingService.cs" />
